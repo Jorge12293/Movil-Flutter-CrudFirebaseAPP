@@ -36,31 +36,9 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyByvBhCZeCBv7WjmY63TlTnI-lUyUqZ85s',
-    appId: '1:1039764634745:web:dd7079cef22ff125b7a8a8',
-    messagingSenderId: '1039764634745',
-    projectId: 'crudfirebasestore',
-    authDomain: 'crudfirebasestore.firebaseapp.com',
-    storageBucket: 'crudfirebasestore.appspot.com',
-    measurementId: 'G-9JTE8Z1YGK',
-  );
+  static const FirebaseOptions web = FirebaseOptions();
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB2HGfL6B70En-hpIblBC9ZJFxJfIHEnG8',
-    appId: '1:1039764634745:android:bd05a27a34c243e4b7a8a8',
-    messagingSenderId: '1039764634745',
-    projectId: 'crudfirebasestore',
-    storageBucket: 'crudfirebasestore.appspot.com',
-  );
+  static const FirebaseOptions android = FirebaseOptions();
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAM957Imp9DPZBQwrPbvRre7spG7NO-rxI',
-    appId: '1:1039764634745:ios:b7dd37d5fa6c7569b7a8a8',
-    messagingSenderId: '1039764634745',
-    projectId: 'crudfirebasestore',
-    storageBucket: 'crudfirebasestore.appspot.com',
-    iosClientId: '1039764634745-8vqud64fsja3d7h3v7k8ef76650t8gu8.apps.googleusercontent.com',
-    iosBundleId: 'com.crud.app',
-  );
+  static const FirebaseOptions ios = FirebaseOptions();
 }
